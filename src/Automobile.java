@@ -1,9 +1,9 @@
 class Automobile {
     String make;
     String model;
-    String year;
+    int year;
 
-    public Automobile(String make,String model, String year) {
+    public Automobile(String make,String model, int year) {
         this.make=make;
         this.model=model;
         this.year=year;
@@ -13,23 +13,23 @@ class Automobile {
         return make;
     }
 
-    public void setMake(String make) {
-        this.make = make;
+    public void setMake(String newmake) {
+        this.make = newmake;
     }
 
     public String getModel() {
         return model;
     }
 
-    public void setModel(String model) {
-        this.model = model;
+    public void setModel(String newmodel) {
+        this.model = newmodel;
     }
 
-    public String getYear() {
+    public int getYear() {
         return year;
     }
 
-    public void setYear(String year) {
-        this.year = year;
+    public void setYear(int newyear) {
+        this.year = newyear;
     }
 }
