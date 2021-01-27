@@ -6,6 +6,6 @@ public class StringMethod {
     }
 
     public static String greet(String name){
-        return ("Hello " +name);
+        return ("Hello " + name);
     }
 }
